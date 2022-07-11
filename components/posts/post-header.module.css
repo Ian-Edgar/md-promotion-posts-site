@@ -1,0 +1,25 @@
+.header {
+  padding-bottom: var(--size-8);
+  position: relative;
+  display: flex;
+  height: 300px;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header h1 {
+  color: var(--dept-copy-white);
+  margin: 0;
+  width: 100%;
+  line-height: initial;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--size-16);
+}
+
+.header img {
+  object-fit: cover;
+  -webkit-filter: brightness(80%);
+}

@@ -1,0 +1,17 @@
+.logo {
+  text-transform: uppercase;
+  font-size: var(--size-5);
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  color: var(--color-grey-50);
+}
+
+.footerLogo {
+  display: inline-block;
+}
+
+@media (max-width: 956px) {
+  .footerLogo {
+    display: none;
+  }
+}

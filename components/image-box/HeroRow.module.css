@@ -1,0 +1,71 @@
+.boxGrid {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 0;
+  height: 628px;
+}
+
+/* Styles for the caption overlays */
+/* Standard Box: Top Center */
+.boxFlex {
+  display: flex;
+  position: sticky;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #d9d9d9;
+}
+
+.boxImg {
+  z-index: -1;
+  overflow: hidden;
+  width: 50%;
+  /* animation: kenburns 90s infinite; */
+}
+
+.boxCaption {
+  position: absolute;
+  max-width: 579px;
+  margin: 2rem;
+  padding: 0.5rem;
+  word-break: break-word;
+  font-size: 34px;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  color: #f2f2f2;
+}
+
+.boxCaption:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #e6e6e6;
+  transition: all ease 0.5s;
+}
+
+/* Box: Center Left */
+.boxFlexBottomLeft {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+@keyframes kenburns {
+  0% {
+    opacity: 0;
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  95% {
+    transform: scale3d(1.5, 1.5, 1.5) translate3d(-190px, -120px, 0px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale3d(2, 2, 2) translate3d(-170px, -100px, 0px);
+    opacity: 0;
+  }
+}

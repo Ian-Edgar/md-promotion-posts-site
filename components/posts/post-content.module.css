@@ -1,0 +1,21 @@
+.content {
+  width: 100%;
+  margin: var(100%) auto;
+  font-size: var(--size-5);
+  line-height: var(--size-8);
+  background-color: var(--color-grey-100);
+  border-radius: 6px;
+}
+
+.content p {
+  color: var(--color-grey-800);
+}
+
+.content .image {
+  margin: var(--size-4) auto;
+  width: 100%;
+}
+
+.articleContent {
+  padding: var(--size-8);
+}

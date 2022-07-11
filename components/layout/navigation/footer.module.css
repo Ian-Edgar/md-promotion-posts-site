@@ -1,0 +1,134 @@
+.footer {
+  display: grid;
+  grid-template-columns: 100%;
+  flex: 1;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dept-black);
+  color: var(--dept-copy-white);
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--dept-copy-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.footerWrapper {
+  width: 100%;
+  height: 6rem;
+  padding: 0 2rem;
+  background-color: var(--dept-black);
+  color: var(--dept-copy-white);
+  display: grid;
+  grid-template-columns: 150px auto;
+  align-items: center;
+}
+
+.footerWrapper a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footerWrapperLegal {
+  display: grid;
+  grid-template-columns: 705px auto;
+  border-top: 1px solid white;
+}
+
+.footerWrapperLegalPrimary {
+  display: grid;
+  grid-template-columns: 300px 205px 200px;
+}
+
+.footerWrapperLegal p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #808080;
+}
+
+@media (max-width: 956px) {
+  .footer {
+    padding: 1rem 2rem;
+  }
+
+  .footerWrapper {
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+    padding-bottom: 2rem;
+    background-color: var(--dept-black);
+    color: var(--dept-copy-white);
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+  }
+
+  .footerWrapper a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .footerWrapperLegal {
+    display: grid;
+    grid-template-columns: auto;
+    border-top: 1px solid white;
+  }
+
+  .footerWrapperLegalPrimary {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .footerWrapper ul {
+    flex-direction: column;
+  }
+
+  .footerWrapper ul li {
+    margin: 1rem 0;
+  }
+
+  .footerWrapperLegal p {
+    text-align: left;
+  }
+}
+
+.footerWrapper ul {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+.footerWrapper li {
+  margin: 0 var(--size-4);
+  /* font-family: 'Maison Neue'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height */
+
+  /* text-decoration-line: underline; */
+}
+
+.footerWrapper a {
+  color: var(--color-grey-100);
+  font-size: var(--size-4);
+}
+
+.footerWrapper a:hover,
+.footerWrapper a:active,
+.footerWrapper a.active {
+  color: var(--color-grey-200);
+}
+
+@media (min-width: 768px) {
+}

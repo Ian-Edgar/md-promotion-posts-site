@@ -1,0 +1,8 @@
+.boxGrid {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 40% auto;
+  padding: 0;
+  height: 628px;
+}

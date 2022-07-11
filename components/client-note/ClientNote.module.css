@@ -1,0 +1,8 @@
+.boxFlex {
+  display: flex;
+  position: sticky;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
