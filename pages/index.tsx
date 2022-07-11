@@ -3,11 +3,8 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import HeroSection from '../components/image-box/HeroSection';
 import HeroRow from '../components/image-box/HeroRow';
-import TestimyRow from '../components/image-box/TestimonyRow';
-import ClientNote from '../components/client-note/ClientNote';
 import ContactForm from '../components/contact/contact-form';
 import EventsSearch from '../components/posts-search/EventsSearch';
-import Footer from '../components/layout/navigation/footer';
 import styles from '../styles/Home.module.css';
 import { getAllPosts } from '../lib/post-util';
 import { ReactNode } from 'react';
@@ -69,15 +66,6 @@ const Home: NextPage = ({ posts, tags }: any) => {
             );
           })}
         </>
-        <TestimyRow>
-          <HeroSection
-            title={posts[0][0].title}
-            imageName={posts[0][0].imageUrl}
-            excerpt={posts[0][0].excerpt}
-            slug='somesortofslug'
-          />
-          <ClientNote />
-        </TestimyRow>
         <ContactForm />
       </main>
     </div>
