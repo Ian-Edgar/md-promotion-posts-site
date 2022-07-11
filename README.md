@@ -28,7 +28,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 Author: Ian Edgar
 
-Spec design: [https://www.figma.com/file/ZQyqteqZXwbsnqoRFWPALB/Frontend-Dev-Case-(New)?node-id=116%3A2839](<https://www.figma.com/file/ZQyqteqZXwbsnqoRFWPALB/Frontend-Dev-Case-(New)?node-id=116%3A2839>)
+Spec design: Provided via Figma
 
 Contact: Alexander Bauduin
 
